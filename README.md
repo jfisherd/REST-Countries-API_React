@@ -11,6 +11,9 @@
 
 ## Description
 In this project, api requests are made to gather information about different countries, and displayed on a webpage. Countries can be filtered by region and with a search term. Click Dark Mode in the top right corner to toggle light/dark mode.
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
 <br>
 Country data sourced from REST Countries (https://restcountries.com)
 <br>
@@ -20,10 +23,13 @@ Project starter files sourced from Frontend Mentor (https://www.frontendmentor.i
 
 ## Running the program
 To view use this project, use command "npm run dev" in the bash terminal.
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
+<!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
 <br>
 
 ## Reflection 
-> W
+> Write a 200-300 word reflection discussing your development process, challenges faced, solutions implemented, and potential improvements.
 
-E
+Development was transferred from a previous project, in which the REST Country API data is similarly displayed using TypeScript and direct DOM manipulation.
 <br>

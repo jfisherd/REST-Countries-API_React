@@ -11,6 +11,7 @@ import { AppNav } from './components/AppNav'
 // Contact API services
 // Save country data to array in Context API
 // Open individual country pages with React Router
+// Deploy a static web application
 
 function App() {
   const [count, setCount] = useState(0)
