@@ -6,6 +6,7 @@
 <!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
 <!--> ADDRESS REACT CHANGES BEFORE FINAL PUSH <-->
 
+
 # Project 2, FrontEnd Mentor/REST Countries - Revisited with React
 
 ## Description
