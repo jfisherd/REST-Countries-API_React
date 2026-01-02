@@ -1,7 +1,9 @@
 import { Country } from "../types/types" // Country is a CLASS, not a type
 
 export const contactApi = async (): Promise<Country[]> => {
+
     let countryArray: Country[] = []
+
     try {
         let response = await fetch('https://restcountries.com/v3.1/all?fields=name,topLevelDomain,capital,subregion,region,population,borders,currencies,languages,flags')
 
@@ -26,9 +28,11 @@ export const contactApi = async (): Promise<Country[]> => {
             )
         }
     }
+
     catch (error) {
         console.error('An error has occurred while fetching country data: ', error)
     }
+    
     finally {
         return countryArray
     }

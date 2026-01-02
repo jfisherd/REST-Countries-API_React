@@ -1,0 +1,91 @@
+/* 
+rgb(32,45,54); main color, dark grey
+rgb(43,55,67); secondary color, slightly lighter grey
+
+- Blue 900 (Dark Mode Elements): hsl(209, 23%, 22%)
+- Blue 950 (Dark Mode Background): hsl(207, 26%, 17%)
+- Grey 950 (Light Mode Text): hsl(200, 15%, 8%)
+- Grey 400 (Light Mode Input): hsl(0, 0%, 50%)
+- Grey 50 (Light Mode Background): hsl(0, 0%, 99%)
+- White (Dark Mode Text & Light Mode Elements): hsl(0, 100%, 100%)
+
+*/
+
+* {
+    color: white;
+    background-color: hsl(207, 26%, 17%);
+}
+
+header {
+    background-color: hsl(209, 23%, 22%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    background-color: hsl(209, 23%, 22%);
+}
+
+svg {
+    width: 15px;
+    background-color: hsl(209, 23%, 22%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 100px
+}
+
+.card {
+    width: 320px;
+    margin: 30px;
+    background-color: rgb(43, 55, 67);
+}
+
+.card-body {
+    background-color: hsl(209, 23%, 22%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+
+.card-title {
+    background-color: hsl(209, 23%, 22%);
+}
+
+h5 {
+    background-color: hsl(209, 23%, 22%);
+}
+
+p {
+    background-color: hsl(209, 23%, 22%);
+}
+
+
+
+/* .card-content {
+    
+} */
+/* .card-title {
+    color: white;
+    background-color: green;
+} */
+
+
+
+@media (max-width: 799px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1 fr;
+    }
+}
