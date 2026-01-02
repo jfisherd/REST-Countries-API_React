@@ -3,6 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles.css'
 import { AppHeader } from './components/appHeader'
+import { AppNav } from './components/AppNav'
+
+// Main/home page
+// Use components for header and nav
+// useState and useEffect for nav filters/search terms
+// Contact API services
+// Save country data to array in Context API
+// Open individual country pages with React Router
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +18,7 @@ function App() {
   return (
     <>
       <AppHeader />
+      <AppNav />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
