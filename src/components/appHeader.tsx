@@ -1,5 +1,4 @@
-
-export function appHeader() {
+export function AppHeader() {
 
     return (
         <>
